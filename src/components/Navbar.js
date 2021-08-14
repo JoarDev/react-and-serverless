@@ -1,4 +1,3 @@
-import {Link } from "react-router-dom"
 import { StyledNavbar, StyledNavBrand, StyledNavItems, StyledLink } from "../styled/Navbar";
 import { Accent } from "../styled/Random";
 
