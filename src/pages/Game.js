@@ -21,7 +21,7 @@ const Game = ({history}) => {
         const interval = setInterval( () => updateTime(currentTime),1)
         return () => clearInterval(interval)
         
-    }, [])
+    }, [setScore])
 
     const setRandomCharacter = () => {
         const randomInt = Math.floor(Math.random() * 36)
@@ -59,7 +59,7 @@ const Game = ({history}) => {
             }
         }
         setRandomCharacter()
-    }, [currentCharacter])
+    }, [score,setScore, currentCharacter])
 
     useEffect(() => {
         document.addEventListener('keyup',keyUpHandler)
