@@ -2,10 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { ScoreProvider } from './context/ScoreContent';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ScoreProvider>
+      <App />
+    </ScoreProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
