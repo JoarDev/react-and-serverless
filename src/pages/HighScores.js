@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { ScoreLi, ScoresList } from "../styled/HighScores";
+import { StyledTitle } from "../styled/Random";
 
 const HighScores = () => {
     //use the fetch API to call getHighScores function and display them
@@ -21,11 +22,11 @@ const HighScores = () => {
 
     return ( 
         <div>
-            <h1>HighScores</h1>
+            <StyledTitle>HighScores</StyledTitle>
             <ScoresList>
                 {highScores.map((score, index)=>(
                     <ScoreLi key={score.id}>
-                        {score.fields.name} - {score.fields.score}
+                        {index + 1} | {score.fields.name} - {score.fields.score}
                     </ScoreLi>
                 ))}
             </ScoresList>

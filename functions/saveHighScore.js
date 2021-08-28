@@ -8,13 +8,12 @@ exports.handler = async (event) => {
         }
     }
     const {score,name} = JSON.parse(event.body)
-    if(!score || !name){
+    if(typeof score == "undefined" || typeof name == "undefined"){
         return {
             statusCode:400,
             body: JSON.stringify({error:"Bad request"})
         }
     }
-    //console.log(body)
     try{
         const records = await getHighScores(false)
 
