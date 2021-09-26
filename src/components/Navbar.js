@@ -1,7 +1,6 @@
 import { useAuth0 } from "@auth0/auth0-react";
 import { StyledNavbar, StyledNavBrand, StyledNavItems, StyledLink, StyledButtonLink } from "../styled/Navbar";
 import { Accent } from "../styled/Random";
-import UseTheme from "../hooks/UseTheme";
 import { StyledButton } from "../styled/Buttons";
 
 const Navbar = ({toggleTheme}) => {

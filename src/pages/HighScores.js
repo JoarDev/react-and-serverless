@@ -26,7 +26,7 @@ const HighScores = () => {
             <ScoresList>
                 {highScores.map((score, index)=>(
                     <ScoreLi key={score.id}>
-                        {index + 1} | {score.fields.name} - {score.fields.score}
+                        {index + 1}. {score.fields.name} -> {score.fields.score}
                     </ScoreLi>
                 ))}
             </ScoresList>
