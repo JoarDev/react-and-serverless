@@ -2,6 +2,7 @@ import CTA from "../styled/CTA";
 import { Accent, StyledTitle } from "../styled/Random";
 
 const Home = () => {
+
     return ( 
         <div>
             <StyledTitle>Ready to type?</StyledTitle>
