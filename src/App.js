@@ -12,6 +12,7 @@ import { useAuth0 } from '@auth0/auth0-react';
 import {ThemeProvider} from "styled-components"
 import {LightTheme, DarkTheme} from "./styled/Themes"
 import UseTheme from './hooks/UseTheme';
+import Loader from './styled/Loader';
 
 function App() {
 
@@ -25,7 +26,7 @@ function App() {
       <ThemeProvider theme={currentTheme}>
         <Global/>
         <Main>
-          {isLoading && <h2>Quick loading screen...</h2>}
+          {isLoading && <Loader>Loading screen...</Loader>}
           {!isLoading &&
           <Container>
             <Navbar toggleTheme={toggleTheme}/>
