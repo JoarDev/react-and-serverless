@@ -12,6 +12,8 @@ ReactDOM.render(
       domain="dev-aonixml.us.auth0.com"
       clientId="udF8KMUWM8hmOuqYm1bZlg00EgazUIed"
       redirectUri={window.location.origin}
+      audience="https://learnbuildtypeapi/"
+      score="post:score"
     >
       <ScoreProvider>
         <App />
