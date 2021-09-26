@@ -1,8 +1,9 @@
 import { useAuth0 } from "@auth0/auth0-react";
 import { StyledNavbar, StyledNavBrand, StyledNavItems, StyledLink } from "../styled/Navbar";
 import { Accent } from "../styled/Random";
+import UseTheme from "../hooks/UseTheme";
 
-const Navbar = () => {
+const Navbar = ({toggleTheme}) => {
 
     const {isAuthenticated, loginWithRedirect, logout} = useAuth0()
 
@@ -30,6 +31,9 @@ const Navbar = () => {
                         <button onClick={logout}>Log out</button>
                     </li>
                 )}
+                <button onClick={toggleTheme}>
+                    Toggle Theme
+                </button>
             </StyledNavItems>
         </StyledNavbar>
      );
