@@ -1,13 +1,14 @@
 const {table, getHighScores} = require("./utils/airtable")
-const {getAccessTokensFromHeaders} = require("./utils/auth")
+const {getAccessTokensFromHeaders, validateAccessToken} = require("./utils/auth")
 
 exports.handler = async (event) => {
 
     const token = getAccessTokensFromHeaders(event.headers)
-    if(!token){
+    const user = await validateAccessToken(token)
+    if(!user){
         return {
             statusCode: 401,
-            body: JSON.stringify({error:"User is not logged in"})
+            body: JSON.stringify({error:"Unauthorized"})
         }
     }
 
@@ -17,7 +18,8 @@ exports.handler = async (event) => {
             body: JSON.stringify({error:"Method not allowed"})
         }
     }
-    const {score,name} = JSON.parse(event.body)
+    const {score} = JSON.parse(event.body)
+    const name = user["https://randomprefix/username"]
     if(typeof score == "undefined" || typeof name == "undefined"){
         return {
             statusCode:400,
