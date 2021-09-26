@@ -14,14 +14,12 @@ function App() {
 
   const {isLoading} = useAuth0();
 
-  if(isLoading){
-    return <h2>Quick loading screen...</h2>
-  }
-
   return (
     <Router>
       <Global/>
       <Main>
+        {isLoading && <h2>Quick loading screen...</h2>}
+        {!isLoading &&
         <Container>
           <Navbar/>
           <Switch>
@@ -32,6 +30,7 @@ function App() {
             {/* Left intentionally last because react finds the first match with slash*/}
           </Switch>
         </Container>
+        }
       </Main>
     </Router>
   );
