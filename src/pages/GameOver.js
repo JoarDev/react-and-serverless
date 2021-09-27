@@ -33,7 +33,7 @@ const GameOver = (history) => {
                 console.log(data)
 
                 if(data.id){
-                    setScoreMessage("Congrats! You got a high score !!")
+                    setScoreMessage("Congrats! You got a high score. Check the Highscore tab")
                 }else{
                     setScoreMessage("Not really a high score. Gotta try again !!")
                 }

@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# LearnBuildType ✍
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="./LearnBuildType.gif" alt="My Project GIF">
 
-## Available Scripts
+---
+### React and Serverless Project
+>Type the correct key game and get into the TOP 10 leadership table
+---
+## Where can i play?
 
-In the project directory, you can run:
+If the badge below 👇 says **Sucess** you can play it here 👉 [**react-and-serverless.netlify.app**](https://react-and-serverless.netlify.app)
 
-### `npm start`
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f5db6dc8-bbf9-4fdb-b8a0-cb2ea4539f27/deploy-status)](https://app.netlify.com/sites/react-and-serverless/deploys)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
+## What is this repo about?
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This repo contains the project that i created in the [React and Serverless - Fullstack Web Development course](https://www.udemy.com/course/react-and-serverless/) by James Quick.
 
-### `npm test`
+It was super fun to build this project and James is an excellent instructor. I didn't know too much about the technologies (see below) he used for making the project and i'm be sure i will make use of them in future projects
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
+## Tech Stack for this project
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+\
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" />
+<img src="https://img.shields.io/badge/Airtable-18BFFF?style=for-the-badge&logo=Airtable&logoColor=white" />
+<img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+\
+Credits for the badges to this awesome repo 👉 [Badges 4 README.md Profile](https://github.com/alexandresanlim/Badges4-README.md-Profile)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+>There were no Auth0 badges :c
 
-### `npm run eject`
+---
+## My socials 👋 say hi
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>
+    <a href="https://github.com/joardev">
+      <img src="https://img.shields.io/badge/Github-100000?style=for-the-badge&logo=github&logoColor=white" />
+    </a>
+    <a href="https://twitter.com/joardev">
+      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+    </a>
+    <a href="ttps://www.linkedin.com/in/joardev/">
+      <img src="https://img.shields.io/badge/Linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    </a>
+</p>
