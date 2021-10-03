@@ -1,10 +1,11 @@
-# LearnBuildType ✍
-
-<img src="./LearnBuildType.gif" alt="My Project GIF">
+<h1 align="center">LearnBuildType ✍</h1>
+<p align="center">
+    <img src="./LearnBuildType.gif" alt="Learn Build Type Game GIF" />
+</p>
 
 ---
-### React and Serverless Project
->Type the correct key game and get into the TOP 10 leadership table
+## What is game?
+>📌 Type the correct key game and get into the TOP 10 leadership table
 ---
 ## Where can i play?
 
